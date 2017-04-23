@@ -1,0 +1,32 @@
+{
+  "name": "node-cloud-consul",
+  "version": "0.0.1",
+  "description": "node-cloud-consul",
+  "main": "build/consul.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-cloud/node-cloud-consul.git"
+  },
+  "keywords": [
+    "node-cloud",
+    "consul",
+    "consul-client"
+  ],
+  "author": "miaowing <i@zfeng.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-cloud/node-cloud-consul/issues"
+  },
+  "homepage": "https://github.com/node-cloud/node-cloud-consul#readme",
+  "dependencies": {
+    "blueimp-md5": "^2.7.0",
+    "consul": "^0.28.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  }
+}
